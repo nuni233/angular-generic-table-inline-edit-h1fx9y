@@ -1,12 +1,10 @@
-import { Component, Output, EventEmitter, ViewChild } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { ReplaySubject } from 'rxjs';
 
-import { HttpClient, HttpParams } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import {
   GenericTableComponent,
   GtConfig,
-  GtInformation,
-  GtOptions,
   GtRow
 } from '@angular-generic-table/core';
 
